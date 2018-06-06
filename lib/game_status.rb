@@ -27,7 +27,7 @@ def won?(board)
 if position_1 == " " && position_2 == " " && position_3 == " "
   return false
 elsif position_1 == "X" && position_2 == "O" && position_3 == "X"
-      return win_combination # return the win_combination indexes that won.
+      return draw # return the win_combination indexes that won.
     else
       false
     end
