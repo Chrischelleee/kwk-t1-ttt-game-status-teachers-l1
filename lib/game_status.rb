@@ -56,12 +56,19 @@ def draw?(board)
 end
 
 def over?(board)
-  if full?(board) 
+  if full?(board)
     return true
   elsif won?(board)
     return true
   else
     return false
   end
+end
 
+def winner(board)
+  if won?(board)
+    winning_token = won?(board)
+    winner = board[winning_token[0]]
+    return winner
+  end
 end
