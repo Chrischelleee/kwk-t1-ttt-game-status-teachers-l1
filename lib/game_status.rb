@@ -4,8 +4,7 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-WIN_COMBINATIONS = [
+WIN_COMBINATIONS = [ 
   [0,1,2], #top rows
   [3,4,5], #middle rows
   [6,7,8], #bottom rows
@@ -15,3 +14,5 @@ WIN_COMBINATIONS = [
   [2,4,6], #starting from the right
   [0,4,8] #starting from the left
   ]
+
+  
