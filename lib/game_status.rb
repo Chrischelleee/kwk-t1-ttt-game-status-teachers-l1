@@ -40,6 +40,7 @@ def full?(board)
 board.each do |token|
   if board == " " || ""
     return false
+    break
   end
   return true
 end
