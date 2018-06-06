@@ -38,7 +38,7 @@ end
 end
 def full?(board)
 board.each do |token|
-  if token == " " || ""
+  if token == " " || token == ""
     return false
     break
   end
