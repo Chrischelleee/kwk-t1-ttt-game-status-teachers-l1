@@ -33,16 +33,13 @@ if position_1 == "O" && position_2 == "O" && position_3 == "O"
 return win_combination
 break
 end
-
-  #   elsif position_1 == "X" && position_2 == "O" && position_3 == "X"
-  #   return false # return the win_combination indexes that won.
-  # elsif position_1 == " " && position_2 == " " && position_3 == " "
-  #   return false
-# else
-#   false
   end
-  return false 
+  return false
 end
 def full?(board)
-
+board.each do |token|
+  if board == " " || ""
+    return false
+  end
+  return true
 end
