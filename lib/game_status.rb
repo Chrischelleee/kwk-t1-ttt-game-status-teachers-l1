@@ -42,6 +42,6 @@ board.each do |token|
     return false
     break
   end
-  return true
 end
+  return true
 end
