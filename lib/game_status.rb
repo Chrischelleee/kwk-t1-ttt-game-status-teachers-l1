@@ -14,4 +14,4 @@ WIN_COMBINATIONS = [
   [2,5,8] #right columns
   [2,4,6] #starting from the right
   [0,4,8] #starting from the left
-]
+  ]
