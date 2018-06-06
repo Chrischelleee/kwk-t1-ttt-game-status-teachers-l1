@@ -36,6 +36,7 @@ end
   end
   return false
 end
+
 def full?(board)
 board.each do |token|
   if token == " " || token == ""
@@ -44,4 +45,11 @@ board.each do |token|
   end
 end
   return true
+end
+
+def draw?(board)
+  if won?(board) 
+    return false
+  else full?(board)
+    return true 
 end
